@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica;
+    background-color: rgb(255, 233, 169);
+}
+
+img {
+    width: 20em;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    margin: 4rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    font-size: 1rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border: none; 
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    font-size: 2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    font-size: 2rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#bar {
+    margin-bottom: 2em; 
+    width: 30em
+}
+
